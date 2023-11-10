@@ -8,12 +8,26 @@ input_path = "data/raw/2017/1.txt"
 with open(input_path, "r") as f:
     data = f.read().strip()
 
-data = [int(x) for x in data]
-data.append(data[0])
 
-sum_eq = 0
-for j, k in zip(data[:-1], data[1:]):
+# TASK 1
+d1 = [int(x) for x in data]
+d1.append(d1[0])
+
+sum_eq_1 = 0
+for j, k in zip(d1[:-1], d1[1:]):
     if j == k:
-        sum_eq += j
+        sum_eq_1 += j
+print(sum_eq_1)
 
-print(sum_eq)
+# TASK 2
+d2 = [int(x) for x in data]
+offset = len(data) // 2
+
+for i in range(offset):
+    d2.append(d2[i])
+
+sum_eq_2 = 0
+for j, k in zip(d2[:-offset], d2[offset:]):
+    if j == k:
+        sum_eq_2 += j
+print(sum_eq_2)
