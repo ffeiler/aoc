@@ -1,1 +1,10 @@
 hello-world/
+data/
+cheatsheets/
+
+SESSION_TOKEN*
+
+.venv
+.python-version
+poetry.lock
+*/__pycache__/
