@@ -1,7 +1,7 @@
-# Setting the christmas tree on fire with Mojo :fire:
+# Letting Pythons swallow the christmas tree :snake:
 
 - Occasion: [Advent of Code 2023](https://adventofcode.com/2023)
-- Docs Mojo: [Modular](https://docs.modular.com/mojo/)
+<!-- - Docs Mojo: [Modular](https://docs.modular.com/mojo/) -->
 
 ## Progress
 - 2015
