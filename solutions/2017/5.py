@@ -15,6 +15,7 @@ def lines_to_instructions(data):
     return instructions
 
 
+# ========= TEST 1 =========
 def test1(instructions):
     pos = 0
     steps = 0
@@ -26,6 +27,7 @@ def test1(instructions):
     return steps
 
 
+# ========= TEST 2 =========
 def test2(instructions):
     pos = 0
     steps = 0
@@ -46,4 +48,4 @@ assert test1(lines_to_instructions(test_data)) == 5
 print(f"Test 1: Exit reached in {test1(lines_to_instructions(data))} steps")
 
 assert test2(lines_to_instructions(test_data)) == 10
-print(f"Test 1: Exit reached in {test2(lines_to_instructions(data))} steps")
+print(f"Test 2: Exit reached in {test2(lines_to_instructions(data))} steps")
