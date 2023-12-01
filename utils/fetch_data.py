@@ -60,3 +60,5 @@ def create_empty_solutions(y_now=2023):
                     f.write("import numpy as np\n")
                     f.write("\n\n")
                     f.write(f"input_path = 'data/raw/{y}/{d}.txt'\n")
+                    f.write(f"with open(input_path, 'r') as f:\n")
+                    f.write(f"\tdata = f.read().strip().split('\t')\n")
