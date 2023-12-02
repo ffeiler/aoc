@@ -1,7 +1,6 @@
 # Sssspiraling through Code-mas Challenges :snake:
 
 - Occasion: [Advent of Code 2023](https://adventofcode.com/2023)
-<!-- - Docs Mojo: [Modular](https://docs.modular.com/mojo/) -->
 
 ## Progress
 - 2015
