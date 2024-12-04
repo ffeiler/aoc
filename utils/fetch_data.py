@@ -32,6 +32,7 @@ def fetch_data(y, d):
 
 
 def fetch_historical_data(y_now=2023):
+    """Fetch raw data for all days of all years from 2015 to y_now"""
     for y in range(2015, y_now):
         for d in range(1, 26):
             fetch_data(y, d)

@@ -46,7 +46,7 @@ example_data = [
 ]
 
 
-# # ========= TEST 1 =========
+# ========= TEST 1 =========
 def test1(data):
     reports = parse_data(data)
     check = [is_safe(r) for r in reports]
@@ -57,7 +57,7 @@ assert test1(example_data) == 2
 print(f"Solution for d2/t1: {test1(data)}")
 
 
-# # ========= TEST 2 =========
+# ========= TEST 2 =========
 def test2(data):
     reports = parse_data(data)
     check = [is_safe(r) for r in reports]
