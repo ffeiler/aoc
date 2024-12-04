@@ -2,6 +2,13 @@ import argparse
 import os
 import time
 
+from utils.fetch_data import (
+    create_empty_solutions,
+    fetch_data,
+    fetch_historical_data,
+    make_root_dirs,
+)
+
 Y_NOW = int(time.localtime().tm_year)
 D_NOW = int(time.localtime().tm_mday)
 
@@ -12,13 +19,6 @@ def parse_args():
 
     return parser.parse_args()
 
-
-from utils.fetch_data import (
-    create_empty_solutions,
-    fetch_data,
-    fetch_historical_data,
-    make_root_dirs,
-)
 
 if __name__ == "__main__":
     make_root_dirs(Y_NOW)
