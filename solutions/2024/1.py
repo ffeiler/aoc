@@ -10,8 +10,6 @@ with open(input_path, "r") as f:
 
 
 # ========= HELPERS =========
-
-
 def split_into_lists(data):
     all_data = [x.split("   ") for x in data]
     all_data = np.array(all_data).flatten()
